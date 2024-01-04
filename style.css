@@ -9,10 +9,10 @@ header {
     background-color: #007bff;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin:5px;
+    margin:4px;
    
 }
 
@@ -25,6 +25,13 @@ header {
     margin: 20px auto;
     max-width: 80%;
 }
+.det_list {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
 
 h1 {
     color: #ffffff;
@@ -39,6 +46,7 @@ h1 {
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
+    margin-bottom: 10px;
     transition: background-color 0.3s;
 }
 
@@ -132,3 +140,11 @@ input[type="password"] {
     padding : 4%;
     border: 9px solid blue; 
 }
+
+#footer {
+      text-align: center;
+      padding: 1em;
+      position: sticky;
+      bottom: 0;
+      margin-top: 20%;
+ }
